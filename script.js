@@ -1,0 +1,13 @@
+document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById("btn-ingat-mati").addEventListener("click", () => {
+        window.location.href = "ingat-mati.html";
+    });
+    
+    document.getElementById("btn-catur-abjad").addEventListener("click", () => {
+        window.location.href = "catur-abjad.html";
+    });
+    
+    document.getElementById("btn-gedor").addEventListener("click", () => {
+        window.location.href = "gedor.html";
+    });
+});

@@ -1,0 +1,82 @@
+main {
+    display: grid;
+    gap: 5px;
+    justify-content: left; /* Optional: centers items inside */
+    margin-top: 40px;         /* Space between title and main */
+}
+
+.web-title {
+    position: relative;
+    /* top: 0; */
+    text-align: center;
+    color: black;
+    font-size: 64px;
+    margin-top: 40px;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+.projects {
+    display: flex; 
+    flex-direction: row; 
+    gap: 20px;
+}
+
+.project {
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+    margin-right: 20px;
+    flex: 1;
+}
+
+.project img {
+    display: block;
+    margin-top: 5px;
+}
+
+.text-button {
+    background: none;
+    border: none;
+    color: blue;       /* You can choose any text color */
+    cursor: pointer;
+    font-size: 16px;   /* Optional: Adjust size */
+    padding: 0;        /* Remove default padding */
+}
+
+.description-text {
+    font-size: 14px;   /* Adjust font size as needed */
+    color: #333;       /* Change text color */
+}
+
+.normal-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+  
+@media (max-width: 768px) {  
+    .web-title {
+        padding: 0;
+        font-size: 32px;
+    }
+
+    footer {
+        font-size: 6px;
+        text-align: center;
+    }
+}

@@ -14,4 +14,8 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById("btn-rottle").addEventListener("click", () => {
         window.location.href = "rottle.html";
     });
+
+    document.getElementById("btn-ula-gendeng").addEventListener("click", () => {
+        window.location.href = "ula-gendeng.html";
+    });
 });

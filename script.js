@@ -10,4 +10,8 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById("btn-gedor").addEventListener("click", () => {
         window.location.href = "gedor.html";
     });
+
+    document.getElementById("btn-rottle").addEventListener("click", () => {
+        window.location.href = "rottle.html";
+    });
 });

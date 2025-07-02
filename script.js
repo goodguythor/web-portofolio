@@ -18,4 +18,8 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById("btn-ula-gendeng").addEventListener("click", () => {
         window.location.href = "ula-gendeng.html";
     });
+
+    document.getElementById("btn-pengunci-handal").addEventListener("click", () => {
+        window.location.href = "pengunci-handal.html";
+    });
 });
